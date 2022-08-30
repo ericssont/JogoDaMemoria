@@ -34,8 +34,6 @@ const createCards = (pairs) => {
 
 load();
 
-
-
 function isMatch(value) {
   const selectedCard = value.target;
 
