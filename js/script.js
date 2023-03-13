@@ -1,3 +1,5 @@
+
+
 const board = document.querySelector(".board");
 const score = document.querySelector(".score");
 
