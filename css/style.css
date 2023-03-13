@@ -2,11 +2,12 @@
 
 :root {
     font-size: 15px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto',sans-serif
 }
 
 * {
     box-sizing: border-box;
+    
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 }
 
 .table {
-    background-color: #425a6d;
+    background: linear-gradient(120deg, #0011f3d8, #02c8ebda);
     height: 100vh;
     padding-top: 5rem;
 }
@@ -39,7 +40,7 @@ body {
     place-items: center;
     gap: 0.5rem;
 
-    background-color: #0f0f0e;
+    background-color: #fdae05;
     width: 40vw;
     padding: 0.5rem;
 
@@ -55,7 +56,7 @@ body {
 
     width: 5rem;
     height: 6rem;
-    background-color: #faf60b;
+    background-color: #0609a06c;
     border-radius: 00.625rem;
 
     cursor: pointer;
@@ -70,6 +71,6 @@ body {
 
 .open {
     background-color: beige;
-    color: black;
+    color: rgb(109, 99, 247);
     transform: rotateY(0deg);
 }
